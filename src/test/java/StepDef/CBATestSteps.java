@@ -13,14 +13,14 @@ import utils.BaseUtil;
 import utils.TestUtils;
 import java.util.ArrayList;
 
-public class loginSteps {
+public class CBATestSteps {
 
     private BaseUtil base;
     HomePage homePage;
     TravelMoneyPage loginPage;
     NetBankLoginPage netbankPage;
 
-    public loginSteps(BaseUtil base) {
+    public CBATestSteps(BaseUtil base) {
         this.base = base;
     }
 
@@ -37,16 +37,19 @@ public class loginSteps {
 
     @Then("^verify all sub topics exist$")
     public void verifyAllSubTopicsExist() {
+        //Check if only the indented subtopics exists in page
         for(WebElement subTopic : loginPage.SubTopics()) {
-            System.out.println(subTopic.getText()); // just to show that it prints text
+            System.out.println(subTopic.getText()); // just printing to console for reference
             Assert.assertTrue(TestUtils.Sub_Topics.contains(subTopic.getText()));
         }
+        //additional check on the number of subtopics
         Assert.assertTrue(loginPage.SubTopics().size()==loginPage.SubTopics().size());
     }
 
     @And("^Click netbank logon link$")
     public void clickNetbankLogonLink() {
         netbankPage = loginPage.clickNetBankLink();
+        //switching the handle to new tab
         ArrayList<String> tabs2 = new ArrayList<String> (base.driver.getWindowHandles());
         base.driver.switchTo().window(tabs2.get(1));
     }

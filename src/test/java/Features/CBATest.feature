@@ -1,7 +1,7 @@
 Feature: CBA Test
   Travel Money Page Check
 
-    Scenario: subtopics check in travel money page
+    Scenario: Sub Topics check in travel money overseas section
       Given I am on CBA home page
       When I click tell me more in travel money section
       Then verify all sub topics exist

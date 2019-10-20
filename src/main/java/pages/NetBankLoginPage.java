@@ -5,14 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import utils.TestUtils;
 
 
 public class NetBankLoginPage extends TestBase {
     public NetBankLoginPage(WebDriver driver) {
         super(driver);
     }
-    public WebDriverWait wait=new WebDriverWait(driver, 30);
+    public WebDriverWait wait=new WebDriverWait(driver, TestUtils.WAIT_FOR_ELEMENT);
     @FindBy(name="txtMyClientNumber$field")
     protected WebElement userName;
 

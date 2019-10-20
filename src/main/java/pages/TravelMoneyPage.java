@@ -19,7 +19,6 @@ public class TravelMoneyPage extends TestBase {
 	
 	@FindBy(xpath="//div[@itemprop=\"articleBody\"]//p[contains(.,\"Log on to \")]//a")
 	protected WebElement netBank;
-	
 
 	public String getLogInPageTitle() {
 		return driver.getTitle();
