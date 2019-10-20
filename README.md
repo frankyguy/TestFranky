@@ -9,5 +9,11 @@ CBA UI Automation test implemented with Cucumber, JUnit and Page Object Model
 
   - mvn clean install
   - mvn test
-# Report  
+# Report:  
 HTML Test report is generated in "/target/site/cucumber-pretty"
+# Config file:
+Config file located in "src/main/resources"
+Currenlty supports the following:
+1. Browser
+2. URL
+3. Assertion List
