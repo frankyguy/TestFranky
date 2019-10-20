@@ -1,8 +1,6 @@
 package utils;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.Properties;
 
 public class BaseUtil {

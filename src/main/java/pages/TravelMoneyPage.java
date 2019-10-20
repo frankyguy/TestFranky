@@ -9,9 +9,7 @@ import java.util.List;
 
 
 public class TravelMoneyPage extends TestBase {
-	
-	public WebDriverWait wait=new WebDriverWait(driver, 30);
-	
+
 	public TravelMoneyPage(WebDriver driver) {
 		super(driver);
 	}
@@ -24,7 +22,6 @@ public class TravelMoneyPage extends TestBase {
 	
 
 	public String getLogInPageTitle() {
-		
 		return driver.getTitle();
 	}
 	
