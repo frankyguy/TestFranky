@@ -5,4 +5,7 @@ CBA UI Automation test implemented with Cucumber, JUnit and Page Object Model
 2. Install Java 1.8
 # Set-up:
 1. Import the source code as Maven Project in IDE (or)
-2. Run from command line to resolve all dependencies and run tests. a. mvn clean install b. mvn test
+2. Run from command line to resolve all dependencies and run tests. 
+
+  - mvn clean install
+  - mvn test
