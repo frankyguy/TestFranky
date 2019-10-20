@@ -9,3 +9,5 @@ CBA UI Automation test implemented with Cucumber, JUnit and Page Object Model
 
   - mvn clean install
   - mvn test
+# Report  
+HTML Test report is generated in "/target/site/cucumber-pretty"
