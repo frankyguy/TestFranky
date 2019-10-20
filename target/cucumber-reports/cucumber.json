@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5979951200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "subtopics check in travel money page",
+        "description": "",
+        "id": "cba-test;subtopics-check-in-travel-money-page",
+        "after": [
+          {
+            "result": {
+              "duration": 929299400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2681438000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on CBA home page",
+            "match": {
+              "location": "loginSteps.iAmOnCBAHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1567635200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click tell me more in travel money section",
+            "match": {
+              "location": "loginSteps.iClickTellMeMoreInTravelMoneySection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253340000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify all sub topics exist",
+            "match": {
+              "location": "loginSteps.verifyAllSubTopicsExist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104007200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click netbank logon link",
+            "match": {
+              "location": "loginSteps.clickNetbankLogonLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2307058100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify username and password exists",
+            "match": {
+              "location": "loginSteps.verifyUsernameAndPasswordExists()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CBA Test",
+    "description": "Travel Money Page Check",
+    "id": "cba-test",
+    "keyword": "Feature",
+    "uri": "CBATest.feature"
+  }
+]

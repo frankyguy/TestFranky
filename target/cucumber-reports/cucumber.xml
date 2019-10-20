@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.822729">
+<testcase classname="CBA Test" name="subtopics check in travel money page" time="13.822729">
+<system-out><![CDATA[Given I am on CBA home page.................................................passed
+When I click tell me more in travel money section...........................passed
+Then verify all sub topics exist............................................passed
+And Click netbank logon link................................................passed
+Then verify username and password exists....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+pages\LogInPage.class
+utils\TestUtils.class
+utils\BaseUtil.class
+pages\TestBase.class
+utils\PropertyFileReader.class
+pages\HomePage.class
